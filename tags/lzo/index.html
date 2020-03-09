@@ -59,9 +59,33 @@
 </div>
 
 
+<script>
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?18e5d537b8e3eee2cd21c783af7f5a35";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 
 
     
+
+<script>
+(function() {
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    } else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
 
 <meta name="generator" content="Hexo 4.2.0"></head>
 <!--[if lte IE 8]>
@@ -217,8 +241,7 @@
     </h3>
     <div class="notification">
         <p>
-    欢迎光临我的网站，<br/>
-    内容逐步完善中...
+    欢迎光临我的网站，内容逐步完善中...
 </p>
     </div>
 </div>
@@ -284,9 +307,7 @@
     </h3>
     <div class="content tag-cloud">
         
-        <canvas width="300" height="300" id="tag-cloud-3d">
-            <a href="/tags/cm/" style="font-size: 10px;">cm</a> <a href="/tags/lzo/" style="font-size: 10px;">lzo</a>
-        </canvas>
+        <a href="/tags/cm/" style="font-size: 10px;">cm</a> <a href="/tags/lzo/" style="font-size: 10px;">lzo</a>
         
     </div>
 </div>
@@ -327,6 +348,16 @@
             <div class="col-sm-12">
                 <div class="busuanzi">
     
+    访问量:
+    <strong id="busuanzi_value_site_pv">
+        <i class="fa fa-spinner fa-spin"></i>
+    </strong>
+    &nbsp; | &nbsp;
+    访客数:
+    <strong id="busuanzi_value_site_uv">
+        <i class="fa fa-spinner fa-spin"></i>
+    </strong>
+    
 </div>
             </div>
             <div class="col-sm-12">
@@ -353,29 +384,7 @@
 
 
 
-<script src="/assets/tagcanvas.min.js?rev=2.9.js"></script>
-
-<script>
-var tagOption = {
-    textColour: '#444', // 字体颜色
-    outlineMethod: 'block', // 选中模式
-    outlineColour: '#FFDAB9', // 选中模式的颜色
-    interval: 30 || 30, // 动画帧之间的时间间隔，值越大，转动幅度越大
-    textHeight: 13,
-    outlineRadius: 3,
-    freezeActive: true || '', // 选中的标签是否继续滚动
-    frontSelect: true || '', // 不选标签云后部的标签
-    initial: [0.1, -0.1],
-    depth: 0.5,
-    decel: 0.95,
-    maxSpeed: 0.03,
-    reverse: true || '', // 是否反向触发
-    fadeIn: 500, // 进入动画时间
-    wheelZoom: false || '' // 是否启用鼠标滚轮
-}
-TagCanvas.Start('tag-cloud-3d', '', tagOption);
-</script>
-
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 <script src="/js/app.js?rev=@@hash.js"></script>
